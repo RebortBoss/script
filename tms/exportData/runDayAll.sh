@@ -1,4 +1,4 @@
-#$/bin/sh
+#!/bin/sh
 BP=`dirname $0`
 echo $BP
 printf "TSP-1:确定要执行该脚本吗?:(y/n)："

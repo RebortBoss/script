@@ -1,4 +1,4 @@
-#$/bin/sh
+#!/bin/sh
 echo $1 $2
 if [ -z "$1" ];then
   echo "lastDate is null"
@@ -51,6 +51,7 @@ sqlplus -S $LogIn <<SEF
 set timing on;
 set time on;
 set show on;
+set echo on;
 select sysdate,'$1' p1,'$2' p2 from dual;
 select h_part('TMS_MAIL_MONITOR_INFO',TO_DATE('$1','yyyymmddhh24miss')+1/12) h_part_name,'$2' parname from dual;
 
