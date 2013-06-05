@@ -16,9 +16,13 @@ echo "$Part2 $Part1 $Part0"
 
 sqlplus -S $LogIn <<EOF
 set timing on;
+variable str_pd varchar2(20);
+variable str_nd varchar2(20);
+exec :str_pd := '$pd';
+exec :str_nd := '$nd';
 drop table zdd_curt_tmp_0 purge;
 create table zdd_curt_tmp_0 
-nologging parallel 16 
+nologging parallel(degree 16) 
 as
 select nm.mail_no,nm.ACTION_TYPE,nm.plan_agency,nm.PLAN_FREQUENCY,
   nm.ACTUAL_AGENCY, nm.ACTUAL_FREQUENCY, nm.plan_action_time,nm.actual_action_time,
@@ -29,13 +33,11 @@ select nm.mail_no,nm.ACTION_TYPE,nm.plan_agency,nm.PLAN_FREQUENCY,
 where ACTUAL_ACTION_TIME is not null;
 commit;
 
-create index IDx_zddcurt_up0 on zdd_curt_tmp_0(UPDATE_TIME) nologging parallel 16;
-
 drop table zdd_curt_tmp_data purge;
 create table zdd_curt_tmp_data
-nologging parallel 16 
+nologging parallel(degree 16)
 as
-select * from zdd_curt_tmp_0 where UPDATE_TIME>=TO_DATE('$pd','yyyymmddhh24miss') and UPDATE_TIME <TO_DATE('$nd','yyyymmddhh24miss') ;
+select * from zdd_curt_tmp_0 where UPDATE_TIME>=TO_DATE(:str_pd,'yyyymmddhh24miss') and UPDATE_TIME <TO_DATE(:str_nd,'yyyymmddhh24miss') ;
 commit;
 
 exit;

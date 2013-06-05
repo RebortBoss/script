@@ -16,9 +16,13 @@ echo "$Part3 $Part2 $Part1"
 
 sqlplus -S $LogIn <<EOF
 set timing on;
+variable str_pd varchar2(20);
+variable str_nd varchar2(20);
+exec :str_pd := '$pd';
+exec :str_nd := '$nd';
 drop table zdd_curt_his_1 purge;
 create table zdd_curt_his_1 
-nologging parallel 16 
+nologging parallel(degree 16)
 as
 select nm.mail_no,nm.ACTION_TYPE,nm.plan_agency,nm.PLAN_FREQUENCY,
   nm.ACTUAL_AGENCY, nm.ACTUAL_FREQUENCY, nm.plan_action_time,nm.actual_action_time,
@@ -33,15 +37,15 @@ create index IDx_zddhis_up1 on zdd_curt_his_1(UPDATE_TIME) nologging parallel 16
 
 drop table zdd_curt_his_data purge;
 create table zdd_curt_his_data
-nologging parallel 16 
+nologging parallel(degree 16) 
 as
-select * from zdd_curt_his_1 where UPDATE_TIME>=TO_DATE('$pd','yyyymmdd') and UPDATE_TIME <TO_DATE('$nd','yyyymmdd') ;
+select * from zdd_curt_his_1 where UPDATE_TIME>=TO_DATE(:str_pd,'yyyymmdd') and UPDATE_TIME <TO_DATE(:str_nd,'yyyymmdd') ;
 commit;
 
 
 drop table zdd_curt_his_2 purge;
 create table zdd_curt_his_2 
-nologging parallel 16 
+nologging parallel(degree 16)
 as
 select nm.mail_no,nm.ACTION_TYPE,nm.plan_agency,nm.PLAN_FREQUENCY,
   nm.ACTUAL_AGENCY, nm.ACTUAL_FREQUENCY, nm.plan_action_time,nm.actual_action_time,
@@ -54,12 +58,12 @@ commit;
 create index IDx_zddhis_up2 on zdd_curt_his_2(UPDATE_TIME) nologging parallel 16;
 
 insert /* +append parallel(nm 16)*/ into zdd_curt_his_data nologging 
-select * from zdd_curt_his_2 nm where UPDATE_TIME>=TO_DATE('$pd','yyyymmdd') and UPDATE_TIME <TO_DATE('$nd','yyyymmdd') ;
+select * from zdd_curt_his_2 nm where UPDATE_TIME>=TO_DATE(:str_pd,'yyyymmdd') and UPDATE_TIME <TO_DATE(:str_nd,'yyyymmdd') ;
 commit;
 
 drop table zdd_curt_his_3 purge;
 create table zdd_curt_his_3
-nologging parallel 16 
+nologging parallel(degree 16)
 as
 select nm.mail_no,nm.ACTION_TYPE,nm.plan_agency,nm.PLAN_FREQUENCY,
   nm.ACTUAL_AGENCY, nm.ACTUAL_FREQUENCY, nm.plan_action_time,nm.actual_action_time,
@@ -72,7 +76,7 @@ commit;
 create index IDx_zddhis_up3 on zdd_curt_his_3(UPDATE_TIME) nologging parallel 16;
 
 insert /* +append parallel(nm 16)*/ into zdd_curt_his_data nologging 
-select * from zdd_curt_his_3 nm where UPDATE_TIME>=TO_DATE('$pd','yyyymmdd') and UPDATE_TIME <TO_DATE('$nd','yyyymmdd') ;
+select * from zdd_curt_his_3 nm where UPDATE_TIME>=TO_DATE(:str_pd,'yyyymmdd') and UPDATE_TIME <TO_DATE(:str_nd,'yyyymmdd') ;
 commit;
 exit;
 EOF
