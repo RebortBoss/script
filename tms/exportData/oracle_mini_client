@@ -1,0 +1,39 @@
+- mesg
+- sqlplus
+- odbc
+- dc_ocm
+- usm
+- nls
+  |- data
+- plsql
+- css
+- deinstall
+- csmig
+- bin
+  |- sqlldr
+  |- sqlplus
+  |- sqluldr2
+- ucp
+- oracore
+  |-  zoneinfo
+- utl
+- owm
+- racg
+- scheduler
+- relnotes
+- network
+  |- admin
+- config
+- lib
+  |- libclntsh.so -> libclntsh.so.11.1
+  |- libclntsh.so.10.1 -> libclntsh.so.11.1
+  |- libclntsh.so.11.1
+  |- libnnz11.a
+  |- libnnz11.so
+  |- libsqlplus.so
+- dbs
+- rdbms
+  |- mesg
+- wwg
+- instantclient
+- mgw
