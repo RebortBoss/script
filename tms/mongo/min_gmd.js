@@ -50,3 +50,4 @@ if(ccdms<tmidd){
 		db.getMongo().getDB('core').power_cfg.save({'_id':ccd,'ts':tmidd});
 	} //if(cms<tmidd){
 }//if(ccdms<tmidd) END
+print("finish ... cost "+(new Date().getTime()-curdate.getTime())+" (ms)");
