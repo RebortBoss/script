@@ -6,7 +6,7 @@ var ccd = new Date(cy,cm,cd);
 var tmidd = Math.round((curdate.getTime()- 300000)/60000) * 60000;
 var next_ccd = new Date(ccd.getTime()+86400000);
 print(curdate + " -- " +curdate.getTime());
-print(new Date(tmidd)+ " -- "+nextDate.getTime());
+print(new Date(tmidd)+ " -- "+tmidd);
 var ccdms = ccd.getTime();
 print(ccdms +" to " + next_ccd.getTime());
 tmidd = tmidd>next_ccd.getTime()?next_ccd.getTime():tmidd;
