@@ -30,12 +30,18 @@ var gdata = db.getMongo().getDB('core').task_power_mon.group({   
 });
 print(gdata.length);
 hddata_arr = [];
+var sum = 0;
 if(psObj==null||psObj.data==null){
 	  hddata_arr = gdata;
 }else{
 	  hddata_arr = psObj.data;
 	  hddata_arr.push.apply(hddata_arr,gdata);
+	  sum = psObj.sum;
 	  printjson("hddata_arr == "+hddata_arr.length);
 }
-db.getMongo().getDB('core').task_power_stat.save({'_id':prd,'data':hddata_arr});
+print("sum calc ... ");
+for(obj:gdata){
+	sum += obj.c;
+}
+db.getMongo().getDB('core').task_power_stat.save({'_id':prd,'data':hddata_arr,'sum':sum});
 

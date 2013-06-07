@@ -39,14 +39,19 @@ if(ccdms<tmidd){
 		printjson(gdata.length);
 		var hisDt = db.getMongo().getDB('core').power_day_stat.findOne({'_id':ccd});
 		var hddata_arr = [];
+		var sum = 0;
 		if(hisDt==null||hisDt.data==null){
 		  hddata_arr = gdata;
 		}else{
 		  hddata_arr = hisDt.data;
 		  hddata_arr.push.apply(hddata_arr,gdata);
+		  sum = psObj.sum;
 		  printjson("hddata_arr == "+hddata_arr.length);
 		}
-		db.getMongo().getDB('core').power_day_stat.save({'_id':ccd,'data':hddata_arr,'lts':tmidd});
+		for(obj:gdata){
+			sum += obj.c;
+		}
+		db.getMongo().getDB('core').power_day_stat.save({'_id':ccd,'data':hddata_arr,'lts':tmidd,'sum':sum});
 	} //if(cms<tmidd){
 }//if(ccdms<tmidd) END
 print("finish ... cost "+(new Date().getTime()-curdate.getTime())+" (ms)");
