@@ -13,9 +13,9 @@ tmidd = tmidd>next_ccd.getTime()?next_ccd.getTime():tmidd;
 if(ccdms<tmidd){
 	print("MST-1:=======");
 	var prv_stat_ms = 0;
-	var psObj = db.getMongo().getDB('core').power_cfg.findOne({'_id':ccd});
-	if(psObj!=null&&psObj.ts!=null){
-	  prv_stat_ms = psObj.ts;
+	var psObj = db.getMongo().getDB('core').power_day_stat.findOne({'_id':ccd},{'_id':0,'lts':1});
+	if(psObj!=null&&psObj.lts!=null){
+	  prv_stat_ms = psObj.lts;
 	}
 	var cms = ccdms<prv_stat_ms ? prv_stat_ms : ccdms;
 	if(cms<tmidd){
@@ -36,7 +36,7 @@ if(ccdms<tmidd){
 		     prev.c+=doc.cnt;
 		  }  
 		});
-		printjson(gdata.legth);
+		printjson(gdata.length);
 		var hisDt = db.getMongo().getDB('core').power_day_stat.findOne({'_id':ccd});
 		var hddata_arr = [];
 		if(hisDt==null||hisDt.data==null){
@@ -44,10 +44,9 @@ if(ccdms<tmidd){
 		}else{
 		  hddata_arr = hisDt.data;
 		  hddata_arr.push.apply(hddata_arr,gdata);
-		  printjson("hddata_arr == "+hddata_arr.legth);
+		  printjson("hddata_arr == "+hddata_arr.length);
 		}
 		db.getMongo().getDB('core').power_day_stat.save({'_id':ccd,'data':hddata_arr,'lts':tmidd});
-		db.getMongo().getDB('core').power_cfg.save({'_id':ccd,'ts':tmidd});
 	} //if(cms<tmidd){
 }//if(ccdms<tmidd) END
 print("finish ... cost "+(new Date().getTime()-curdate.getTime())+" (ms)");
