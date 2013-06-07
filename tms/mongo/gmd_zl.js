@@ -40,8 +40,18 @@ if(psObj==null||psObj.data==null){
 	  printjson("hddata_arr == "+hddata_arr.length);
 }
 print("sum calc ... ");
-for(obj:gdata){
-	sum += obj.c;
+var csst  = new Date().getTime();
+if(sum==null||sum<=0){
+	print("sum is 0....");
+	sum = 0;
+	for(obj in hddata_arr){
+		sum += hddata_arr[obj].c;
+	}
+}else{
+	for(obj in gdata){
+		sum += gdata[obj].c;
+	}
 }
+print("sum calc cost  "+(new Date().getTime()-csst)+"(ms)");
 db.getMongo().getDB('core').task_power_stat.save({'_id':prd,'data':hddata_arr,'sum':sum});
 

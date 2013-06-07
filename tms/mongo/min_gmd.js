@@ -48,9 +48,20 @@ if(ccdms<tmidd){
 		  sum = psObj.sum;
 		  printjson("hddata_arr == "+hddata_arr.length);
 		}
-		for(obj:gdata){
-			sum += obj.c;
+		print("sum calc ... ");
+		var csst  = new Date().getTime();
+		if(sum==null||sum<=0){
+			print("sum is 0....");
+			sum = 0;
+			for(obj in hddata_arr){
+				sum += hddata_arr[obj].c;
+			}
+		}else{
+			for(obj in gdata){
+				sum += gdata[obj].c;
+			}
 		}
+		print("sum calc cost  "+(new Date().getTime()-csst)+"(ms)");
 		db.getMongo().getDB('core').power_day_stat.save({'_id':ccd,'data':hddata_arr,'lts':tmidd,'sum':sum});
 	} //if(cms<tmidd){
 }//if(ccdms<tmidd) END

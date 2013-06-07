@@ -1,3 +1,4 @@
+//过时了..
 var curdate = new Date();
 var cy = curdate.getFullYear()
 var cm =  curdate.getMonth();
