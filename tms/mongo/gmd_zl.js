@@ -31,27 +31,34 @@ var gdata = db.getMongo().getDB('core').task_power_mon.group({   
 print(gdata.length);
 hddata_arr = [];
 var sum = 0;
-if(psObj==null||psObj.data==null){
-	  hddata_arr = gdata;
-}else{
-	  hddata_arr = psObj.data;
-	  hddata_arr.push.apply(hddata_arr,gdata);
-	  sum = psObj.sum;
-	  printjson("hddata_arr == "+hddata_arr.length);
-}
-print("sum calc ... ");
-var csst  = new Date().getTime();
-if(sum==null||sum<=0){
-	print("sum is 0....");
-	sum = 0;
-	for(obj in hddata_arr){
-		sum += hddata_arr[obj].c;
+var mode = 10*60*1000;
+var tmp_prd =0;
+var tmpSum = 0;
+if(psObj!=null&&psObj.data!=null){
+	for(inx in psObj.data){
+		var nobj =  psObj.data[inx];
+		var md = Math.round(nobj["d"].getTime()/mode)*mode;
+		if(tmp_prd<=0){
+			tmp_prd = md;
+		}
+		if(md>tmp_prd){
+			hddata_arr.push({'d':new Date(tmp_prd),'c':tmpSum});
+			tmpSum = 0;
+			tmp_prd  =md;
+		}
+		tmpSum += nobj['c'];
+		sum += nobj['c'];
 	}
-}else{
+	if(tmp_prd>0){
+		hddata_arr.push({'d':new Date(tmp_prd),'c':tmpSum});
+	}
+}
+if(gdata!=null){
+	hddata_arr.push.apply(hddata_arr,gdata);
 	for(obj in gdata){
-		sum += gdata[obj].c;
+        	sum += gdata[obj].c;
 	}
 }
-print("sum calc cost  "+(new Date().getTime()-csst)+"(ms)");
+printjson(hddata_arr.length);
 db.getMongo().getDB('core').task_power_stat.save({'_id':prd,'data':hddata_arr,'sum':sum});
 

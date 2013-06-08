@@ -5,7 +5,5 @@ db.getMongo().getDB('core').task_power_stat.find().forEach(function(data){
 		sum += cdat[inx]['c'];
 	}
 	printjson(data['_id']+"  -- sum:"+sum);
-	var newData = data;
-	newData['sum'] = sum;
-	db.getMongo().getDB("core").task_power_stat.update({'_id':data['_id']},newData);
+	db.getMongo().getDB("core").task_power_stat.update({'_id':data['_id']},{$set:{'sum':sum}});
 });
