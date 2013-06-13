@@ -11,12 +11,12 @@ echo `dirname $0`
 LogIn=cp_tms/tms@tmsdb980_1
 #LogIn=cp_tms/tms@tmstz580
 echo $LogIn
-bp=/opt/exportData
+bp=`dirname $0`
 startDT=`date +'%Y%m%d%H%M%S'`
 sdtmi=`date +'%s'`
 
 sqlplus -S $LogIn <<SEF >>$bp/export_log_nextDate.log
-@/opt/exportData/nextDate.sql;
+@$bp/nextDate.sql;
 SEF
 curtDateStr=`date +'%Y%m%d'`
 echo $curtDateStr

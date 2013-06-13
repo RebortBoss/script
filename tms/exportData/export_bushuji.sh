@@ -16,13 +16,8 @@ if [ ! "$passFlag" = "y" ]; then
   echo "退出...."
   exit;
 fi;
-export ORACLE_BASE=/oracle/app/oracle
-export ORACLE_HOME=$ORACLE_BASE/11.2.0
-export LD_LIBRARY_PATH=$ORACLE_HOME/lib
-export PATH=$ORACLE_HOME/bin:/usr/local/sbin:/usr/local/bin:$PATH
-export CLASSPATH=$ORACLE_HOME/lib
-export NLS_LANG='AMERICAN_AMERICA.ZHS16GBK'
-export NLS_DATE_FORMAT='yyyy-mm-dd hh24:mi:ss'
+BP=`dirname $0`
+source $BP/oracle.profile
 
 sdtmi=`date +'%s'`
 LogIn=cp_tms/tms@tmsdb980_1
