@@ -30,10 +30,7 @@ SEF
 curtDateStr=`date +'%Y%m%d'`
 echo $curtDateStr
 chour=`date +'%H'`
-frNum=`expr $chour / 3`
-if [ $frNum -eq 0 ]; then
-    frNum=8;
-fi;
+frNum=`expr $chour / 3 + 1`
 echo "curt hour $chour == $frNum"
 expLog=$bp/expLog.log
 cat $bp/text_next_date.text

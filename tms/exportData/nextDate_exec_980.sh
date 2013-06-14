@@ -1,17 +1,9 @@
 #!/bin/sh
-export ORACLE_BASE=/oracle/app/oracle
-export ORACLE_HOME=$ORACLE_BASE/11.2.0
-export LD_LIBRARY_PATH=$ORACLE_HOME/lib
-export PATH=$ORACLE_HOME/bin:/usr/local/sbin:/usr/local/bin:$PATH
-export CLASSPATH=$ORACLE_HOME/lib
-export NLS_LANG='AMERICAN_AMERICA.ZHS16GBK'
-echo $PATH
-echo `pwd`
-echo `dirname $0`
+bp=`dirname $0`
+source $bp/oracle.profile
 LogIn=cp_tms/tms@tmsdb980_1
 #LogIn=cp_tms/tms@tmstz580
 echo $LogIn
-bp=`dirname $0`
 startDT=`date +'%Y%m%d%H%M%S'`
 sdtmi=`date +'%s'`
 
@@ -21,10 +13,7 @@ SEF
 curtDateStr=`date +'%Y%m%d'`
 echo $curtDateStr
 chour=`date +'%H'`
-frNum=`expr $chour / 3`
-if [ $frNum -eq 0 ]; then
-    frNum=8;
-fi;
+frNum=`expr $chour / 3 + 1`
 echo "curt hour $chour == $frNum"
 expLog=$bp/expLog.log
 cat $bp/text_next_date.text
@@ -71,7 +60,7 @@ SQL="SELECT DECODE(M.UPDATE_TIME-M.CREATE_TIME,0,'I','U') INORUP,
 from ZDD_MONITOR M"
 echo $SQL
 TMP_FILE=$bp/tmp.dat
-/usr/local/bin/sqluldr2 user=$LogIn query="$SQL" charset=GBK file=$TMP_FILE field=0x09 record=0x0d0x0a >$expLog
+sqluldr2 user=$LogIn query="$SQL" charset=GBK file=$TMP_FILE field=0x09 record=0x0d0x0a >$expLog
 count=`tail -n 1 $expLog|cut -d' ' -f15`
 if [ -z "$count" ];then
   count=`cat $TMP_FILE|wc -l`
@@ -95,5 +84,6 @@ commit;
 quit
 EOF
 ls -l $bp/$finlFileName 
-sh /opt/exportData/putFile.sh $bp/$finlFileName && rm -rf $bp/$finlFileName
+#sh $bp/putFile.sh $bp/$finlFileName && rm -rf $bp/$finlFileName
+sh $bp/putFile.sh $bp/$finlFileName
 echo "==========================="
