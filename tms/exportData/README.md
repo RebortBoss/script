@@ -3,6 +3,7 @@ exportData脚本使用说明
 *	oracle环境配置
 
 		sftp root@10.3.50.249:/home/oracle_min_client_11.2.0.tar.gz .
+		tar zxvf oracle_min_client_11.2.0.tar.gz
 		vim oracle.profile　//修改ORACLE_BASE的地址
 		source oracle.profile
 
