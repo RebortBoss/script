@@ -18,3 +18,4 @@ exportData脚本使用说明
 |`runDayAll.sh`	|手动导出一天的数据,与`export_bushuji.sh`和`nextDate_exec_980.sh`结合使用
 |`curt_exportData.sh`	|导出当前数据,每三个小时自动运行一次,导出这三个小时内产生的数据
 |`full_monitor.sh`	|导出monitor全表数据的脚本,usage `full_monitor.sh <edate>` 参数格式:yyyymmdd
+|`stat_post.sh`	|usage `./stat_post.sh 20130613`
