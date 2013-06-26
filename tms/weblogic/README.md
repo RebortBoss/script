@@ -1,0 +1,1 @@
+sftp root@10.3.32.141:/root/project/tms_yz/*.py .

@@ -1,0 +1,8 @@
+#!/usr/bin/expect -f
+set timeout -1   
+spawn sftp root@10.3.32.141:/root/project/mini_xclient/target/tms_client_1.0.jar .
+match_max 100000
+expect "*?assword:*"
+send "eMs123456\r"
+send "\r"
+expect eof
