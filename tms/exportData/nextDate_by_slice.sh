@@ -32,8 +32,8 @@ echo $curtDateStr
 chour=`date +'%H'`
 frNum=`expr $chour / 3 + 1`
 echo "curt hour $chour == $frNum"
-expLog=$bp/expLog.log
-cat $bp/text_next_date.text
+expLog=$bp/expLogslice.log
+cat $bp/text_next_dateslice.text
 pd=$1
 nd=$2
 echo "pd=$pd"
@@ -76,7 +76,7 @@ SQL="SELECT DECODE(M.UPDATE_TIME-M.CREATE_TIME,0,'I','U') INORUP,
   '' NEXTFLAG
 from ZDD_MONITOR M"
 echo $SQL
-TMP_FILE=$bp/tmp.dat
+TMP_FILE=$bp/tmpslice.dat
 sqluldr2 user=$LogIn query="$SQL" charset=GBK file=$TMP_FILE field=0x09 record=0x0d0x0a >$expLog
 count=`tail -n 1 $expLog|cut -d' ' -f15`
 if [ -z "$count" ];then
@@ -87,10 +87,10 @@ mv $TMP_FILE $bp/$finlFileName
 echo "fileName is $finlFileName"
 echo "$curtDateStr finish .... "
 
-echo "$curtDateStr start  ...... " >> $bp/allExportLog.log
-cat $expLog >>$bp/allExportLog.log
-echo "$curtDateStr finish ...... " >> $bp/allExportLog.log
-echo "===========" >>$bp/allExportLog.log
+echo "$curtDateStr start  ...... " >> $bp/allExportLogslice.log
+cat $expLog >>$bp/allExportLogslice.log
+echo "$curtDateStr finish ...... " >> $bp/allExportLogslice.log
+echo "===========" >>$bp/allExportLogslice.log
 endDT=`date +'%Y%m%d%H%M%S'`
 edtmi=`date +'%s'`
 cost=`expr $edtmi - $sdtmi`
