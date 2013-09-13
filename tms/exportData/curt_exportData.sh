@@ -11,6 +11,16 @@ pd=`echo $strDate|awk {'print $1'}`
 nd=`echo $strDate|awk {'print $2'}`
 echo "pd=$pd"
 echo "nd=$nd"
+if [ -z "$pd" ];then
+  echo "pd is null. exit .."
+  python $BP/sendSMS "export ERROR pd is null." 15910743577
+  exit;
+fi;
+if [ -z "$nd" ];then
+  echo "nd is null. exit .."
+  python $BP/sendSMS "export ERROR nd is null." 15910743577
+  exit;
+fi;
 Part0=`sh $BP/getPartName.sh 0`
 Part1=`sh $BP/getPartName.sh 1`
 echo "$Part1 $Part0"
@@ -21,9 +31,10 @@ frNum=`expr $chour / 3 + 1`
 echo $frNum 
 sqlplus -S $LogIn <<EOF
 set timing on;
+drop table zdd_curt_tmp_data purge;
 drop table zdd_curt_tmp_0 purge;
 create table zdd_curt_tmp_0 
-nologging parallel(degree 16) 
+nologging parallel(degree 32) 
 as
 select nm.mail_no,nm.ACTION_TYPE,nm.plan_agency,nm.PLAN_FREQUENCY,
   nm.ACTUAL_AGENCY, nm.ACTUAL_FREQUENCY, nm.plan_action_time,nm.actual_action_time,
@@ -35,16 +46,15 @@ where ACTUAL_ACTION_TIME is not null;
 commit;
 create index IDE_zddcurt_tmp0 on zdd_curt_tmp_0(UPDATE_TIME) nologging parallel 16;
 
-drop table zdd_curt_tmp_data purge;
 create table zdd_curt_tmp_data
-nologging parallel(degree 16)
+nologging parallel(degree 32)
 as
 select * from zdd_curt_tmp_0 where UPDATE_TIME>=TO_DATE('$pd','yyyymmddhh24miss') and UPDATE_TIME <TO_DATE('$nd','yyyymmddhh24miss') ;
 commit;
 
 drop table zdd_curt_tmp_1 purge;
 create table zdd_curt_tmp_1 
-nologging parallel(degree 16) 
+nologging parallel(degree 32) 
 as
 select nm.mail_no,nm.ACTION_TYPE,nm.plan_agency,nm.PLAN_FREQUENCY,
   nm.ACTUAL_AGENCY, nm.ACTUAL_FREQUENCY, nm.plan_action_time,nm.actual_action_time,
@@ -59,7 +69,7 @@ create index Idx_zddcurt_tmp1 on zdd_curt_tmp_1(UPDATE_TIME) nologging parallel 
 
 drop table zdd_curt_data_1 purge;
 create table zdd_curt_data_1 
-nologging parallel(degree 16) 
+nologging parallel(degree 32) 
 as
 select * from zdd_curt_tmp_1 NM where UPDATE_TIME>=TO_DATE('$pd','yyyymmddhh24miss') and UPDATE_TIME <TO_DATE('$nd','yyyymmddhh24miss');
 commit;
@@ -116,10 +126,11 @@ echo $SQL
 TMP_FILE=$BP/curt_tmp.dat
 AE_LOG=$BP/curt_allExportLog.log
 expLog=$BP/curt_expLog.log
-/usr/local/bin/sqluldr2 user=$LogIn query="$SQL" charset=GBK file=$TMP_FILE field=0x09 record=0x0d0x0a >$expLog
+sqluldr2 user=$LogIn query="$SQL" charset=GBK file=$TMP_FILE field=0x09 record=0x0d0x0a >$expLog
 count=`tail -n 1 $expLog|cut -d' ' -f15`
 if [ -z "$count" ];then
   count=`cat $TMP_FILE|wc -l`
+  python $BP/sendSMS "export ERROR count is 0." 15910743577
 fi;
 finlFileName="TMS01_${curtDateStr}_0${frNum}_${count}_${pd}_${nd}.TXT"
 mv $TMP_FILE $BP/$finlFileName
@@ -140,8 +151,7 @@ commit;
 quit
 EOF
 ls -l $BP/$finlFileName 
-sh $BP/putFile.sh $BP/$finlFileName && rm -rf $BP/$finlFileName
+sh $BP/putFile.sh $BP/$finlFileName 
 echo "==========================="
 
-
-
+exit;

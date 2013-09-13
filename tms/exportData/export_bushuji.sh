@@ -18,7 +18,6 @@ if [ ! "$passFlag" = "y" ]; then
 fi;
 BP=`dirname $0`
 source $BP/oracle.profile
-
 sdtmi=`date +'%s'`
 LogIn=cp_tms/tms@tmsdb980_1
 echo $LogIn
@@ -115,3 +114,4 @@ SEF
 edtmi=`date +'%s'`
 cost=`expr $edtmi - $sdtmi`
 echo "finish ... cost $cost (s)"
+exit

@@ -6,7 +6,7 @@ set trimspool on
 set linesize 5000
 
 ----
-spool /opt/exportData/text_next_date.text
+spool /home/superftp/bin/text_next_date.text
 
 --
 call ZDD_EXPORTDATA_AFTER();

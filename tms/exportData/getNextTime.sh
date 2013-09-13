@@ -15,4 +15,4 @@ exit;
 EOF
 `
 echo $calcPtName
-
+exit

@@ -1,0 +1,63 @@
+#!/usr/bin/python
+# Filename : sendSMS.py
+import httplib
+import re,urllib
+import sys
+import logging
+import time
+import random
+
+def initLog():
+    conf={}
+    conf["name"]="holly-SMS"
+    conf["filename"]="/var/log/sendSMS.log"
+    conf["format"]="[%(asctime)s]: %(message)s"
+    conf["datefmt"]="%Y-%m-%d %H:%M:%S"
+    conf["module"] = 'a'
+    conf["maxBytes"] = 1000000
+    conf["backupCount"] = 3 
+    conf["level"]=logging.DEBUG
+    logger=logging.getLogger(conf["name"])
+    handler=logging.FileHandler(conf["filename"])
+    fmt = logging.Formatter(conf["format"],conf["datefmt"])
+    handler.setFormatter(fmt)
+    logger.addHandler(handler)
+    logger.setLevel(conf["level"])
+    return logger
+
+def  getId():
+    return  "%f%04d" %(time.time(),random.randint(0,9999));
+
+def main():
+    host = "10.3.7.168";
+    port = "8012";
+    url = "/smscp/emailnotification/submit";
+    auth = "ZW1z@202B89D549D185E930E6BEEFB7309FDC";
+    
+    if len(sys.argv) < 3 :
+        print "sendSMS:too few arguments";
+        print "usage: sendSMS <msgContent> <dest>";
+        print "  msgContent : Content of the message."; 
+        print "  dest : Receive SMS mobile phone number.";
+        sys.exit();
+    
+    msgContent = sys.argv[1];
+    dest =  sys.argv[2];
+    log = initLog();
+    smsId = getId();
+    log.info("%s send SMS.[dest=%s,msgContent=%s]" %(smsId,dest,msgContent));
+    
+    params = urllib.urlencode({'auth':auth, 'dest':dest, 'msgcontent':msgContent});
+    headers = {"Content-type": "application/x-www-form-urlencoded", "Accept": "text/plain","cache-control":"no-cache"};
+    conn = httplib.HTTPConnection(host,port);
+    try:
+        try:
+            conn.request('POST', url ,params,headers);
+            res = conn.getresponse();
+            log.info("%s send Result %s.[%s]" %(smsId,res.reason,res.read()) );
+        except Exception, e:
+            log.info("%s send fail.[%s]" %(smsId,e) );
+    finally:
+        conn.close();
+    
+main();    

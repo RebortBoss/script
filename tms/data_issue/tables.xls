@@ -1,0 +1,2229 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="ProgId" content="Excel.Sheet"/>
+  <meta name="Generator" content="WPS Office ET"/>
+  <!--[if gte mso 9]>
+   <xml>
+    <o:DocumentProperties>
+     <o:Author>zhoudd</o:Author>
+     <o:Created>1899-12-30T00:00:00</o:Created>
+    </o:DocumentProperties>
+    <o:CustomDocumentProperties>
+     <o:KSOProductBuildVer dt:dt="string">2052-9.1.0.4032</o:KSOProductBuildVer>
+    </o:CustomDocumentProperties>
+   </xml>
+  <![endif]-->
+  <style>
+<!-- @page
+	{margin:1.00in 0.75in 1.00in 0.75in;
+	mso-header-margin:0.51in;
+	mso-footer-margin:0.51in;
+	mso-page-numbers-start:-1;}
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+.font0
+	{color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font1
+	{color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:italic;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font2
+	{color:windowtext;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font3
+	{color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font4
+	{color:#000000;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font5
+	{color:#333399;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font6
+	{color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font7
+	{color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font8
+	{color:#333399;
+	font-size:16.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font9
+	{color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font10
+	{color:#800000;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font11
+	{color:#000000;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font12
+	{color:#000000;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.style0
+	{mso-number-format:"General";
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-pattern:auto;
+	mso-background-source:auto;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:"Normal";
+	mso-style-id:0;}
+.style16
+	{mso-style-name:"sup";}
+.style17
+	{mso-number-format:"_ * \#\,\#\#0_ \;_ * \\-\#\,\#\#0_ \;_ * \0022-\0022_ \;_ \@_ ";
+	mso-style-name:"Comma[0]";
+	mso-style-id:6;}
+.style18
+	{vertical-align:top;
+	mso-pattern:auto none;
+	background:#FFFFFF;
+	color:#800000;
+	font-size:9.0pt;
+	font-family:Arial;
+	mso-style-name:"a";}
+.style19
+	{font-style:italic;
+	mso-style-name:"em";}
+.style20
+	{font-weight:700;
+	mso-style-name:"b";}
+.style21
+	{text-align:left;
+	padding-left:54px;
+	mso-char-indent-count:2;
+	mso-style-name:"ol";}
+.style22
+	{text-align:left;
+	mso-pattern:auto none;
+	background:#FFFFFF;
+	color:#333399;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:Arial;
+	border-bottom:.5pt solid #FFFF99;
+	mso-style-name:"h1";}
+.style23
+	{text-align:left;
+	mso-pattern:auto none;
+	background:#FFFFFF;
+	color:#333399;
+	font-size:10.0pt;
+	font-weight:700;
+	font-family:Arial;
+	mso-style-name:"h2";}
+.style24
+	{text-align:left;
+	font-size:12.0pt;
+	font-weight:700;
+	mso-style-name:"h3";}
+.style25
+	{text-align:left;
+	font-size:12.0pt;
+	font-weight:700;
+	mso-style-name:"h4";}
+.style26
+	{text-align:left;
+	font-size:12.0pt;
+	font-weight:700;
+	mso-style-name:"h5";}
+.style27
+	{text-align:left;
+	font-size:12.0pt;
+	font-weight:700;
+	mso-style-name:"h6";}
+.style28
+	{text-line-through:single;
+	mso-style-name:"del";}
+.style29
+	{font-style:italic;
+	mso-style-name:"i";}
+.style30
+	{text-align:left;
+	mso-pattern:auto none;
+	background:#FFFFCC;
+	color:#000000;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-style-name:"table";}
+.style31
+	{mso-number-format:"_ * \#\,\#\#0\.00_ \;_ * \\-\#\,\#\#0\.00_ \;_ * \0022-\0022??_ \;_ \@_ ";
+	mso-style-name:"Comma";
+	mso-style-id:3;}
+.style32
+	{mso-pattern:auto none;
+	background:#FFFFFF;
+	color:#000000;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-style-name:"p";}
+.style33
+	{text-line-through:single;
+	mso-style-name:"strike";}
+.style34
+	{mso-number-format:"_ \0022\00A5\0022* \#\,\#\#0\.00_ \;_ \0022\00A5\0022* \\-\#\,\#\#0\.00_ \;_ \0022\00A5\0022* \0022-\0022??_ \;_ \@_ ";
+	mso-style-name:"Currency";
+	mso-style-id:4;}
+.style35
+	{text-line-through:single;
+	mso-style-name:"s";}
+.style36
+	{text-align:left;
+	mso-pattern:auto none;
+	background:#FFFFCC;
+	color:#000000;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-style-name:"td";}
+.style37
+	{text-decoration:underline;
+	text-underline-style:single;
+	mso-style-name:"u";}
+.style38
+	{font-style:italic;
+	mso-style-name:"var";}
+.style39
+	{text-align:center;
+	mso-pattern:auto none;
+	background:#FFFF99;
+	color:#333399;
+	font-size:10.0pt;
+	font-weight:700;
+	font-family:Arial;
+	mso-style-name:"th";}
+.style40
+	{mso-number-format:"0%";
+	mso-style-name:"Percent";
+	mso-style-id:5;}
+.style41
+	{font-style:italic;
+	mso-style-name:"cite";}
+.style42
+	{font-style:italic;
+	mso-style-name:"address";}
+.style43
+	{mso-number-format:"_ \0022\00A5\0022* \#\,\#\#0_ \;_ \0022\00A5\0022* \\-\#\,\#\#0_ \;_ \0022\00A5\0022* \0022-\0022_ \;_ \@_ ";
+	mso-style-name:"Currency[0]";
+	mso-style-id:7;}
+.style44
+	{mso-style-name:"sub";}
+.style45
+	{text-align:left;
+	padding-left:54px;
+	mso-char-indent-count:2;
+	mso-style-name:"ul";}
+.style46
+	{text-align:left;
+	mso-pattern:auto none;
+	background:#FFFFCC;
+	color:#000000;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-style-name:"tr";}
+.style47
+	{text-align:left;
+	padding-left:54px;
+	mso-char-indent-count:2;
+	mso-style-name:"dd";}
+.style48
+	{text-align:left;
+	padding-left:54px;
+	mso-char-indent-count:2;
+	mso-style-name:"dir";}
+.style49
+	{text-align:left;
+	padding-left:54px;
+	mso-char-indent-count:2;
+	mso-style-name:"menu";}
+.style50
+	{mso-pattern:auto none;
+	background:#FFFFFF;
+	color:#000000;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-style-name:"body";}
+.style51
+	{font-weight:700;
+	mso-style-name:"strong";}
+.style52
+	{text-align:center;
+	mso-style-name:"center";}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	mso-number-format:"General";
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-pattern:auto;
+	mso-background-source:auto;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border:none;
+	mso-protection:locked visible;}
+.xl54
+	{mso-style-parent:style0;
+	text-align:center;
+	mso-pattern:auto none;
+	background:#FFFFCC;
+	color:#000000;
+	font-size:10.0pt;
+	font-weight:700;
+	font-family:Arial;
+	border:.5pt solid windowtext;}
+.xl55
+	{mso-style-parent:style0;
+	text-align:left;
+	white-space:normal;
+	mso-pattern:auto none;
+	background:#FFFFCC;
+	color:#000000;
+	font-size:10.0pt;
+	font-family:Arial;
+	border:.5pt solid windowtext;}
+.xl56
+	{mso-style-parent:style0;
+	text-align:left;
+	white-space:normal;
+	mso-pattern:auto none;
+	background:#FFFFCC;
+	color:#000000;
+	font-size:10.0pt;
+	border:.5pt solid windowtext;}
+.xl57
+	{mso-style-parent:style0;
+	mso-number-format:"yyyy\\/m\\/d";
+	white-space:normal;
+	mso-pattern:auto none;
+	background:#FFFFCC;
+	color:#000000;
+	font-size:10.0pt;
+	font-family:Arial;
+	border:.5pt solid windowtext;}
+ -->  </style>
+  <!--[if gte mso 9]>
+   <xml>
+    <x:ExcelWorkbook>
+     <x:ExcelWorksheets>
+      <x:ExcelWorksheet>
+       <x:Name>tables</x:Name>
+       <x:WorksheetOptions>
+        <x:Selected/>
+        <x:Panes>
+         <x:Pane>
+          <x:Number>3</x:Number>
+          <x:ActiveCol>5</x:ActiveCol>
+          <x:ActiveRow>1</x:ActiveRow>
+          <x:RangeSelection>F2</x:RangeSelection>
+         </x:Pane>
+        </x:Panes>
+        <x:CodeName></x:CodeName>
+        <x:DoNotDisplayGridlines/>
+        <x:ProtectContents>False</x:ProtectContents>
+        <x:ProtectObjects>False</x:ProtectObjects>
+        <x:ProtectScenarios>False</x:ProtectScenarios>
+        <x:EnableSelection>NoSelection</x:EnableSelection>
+        <x:AllowFormatCells/>
+        <x:AllowSizeCols/>
+        <x:AllowSizeRows/>
+        <x:AllowInsertCols/>
+        <x:AllowInsertRows/>
+        <x:AllowInsertHyperlinks/>
+        <x:AllowDeleteCols/>
+        <x:AllowDeleteRows/>
+        <x:AllowSort/>
+        <x:AllowFilter/>
+        <x:AllowUsePivotTables/>
+        <x:PageBreakZoom>100</x:PageBreakZoom>
+        <x:Print>
+         <x:ValidPrinterInfo/>
+         <x:PaperSizeIndex>9</x:PaperSizeIndex>
+        </x:Print>
+       </x:WorksheetOptions>
+      </x:ExcelWorksheet>
+     </x:ExcelWorksheets>
+     <x:ActiveChart></x:ActiveChart>
+     <x:ProtectStructure>False</x:ProtectStructure>
+     <x:ProtectWindows>False</x:ProtectWindows>
+     <x:WindowHeight>8040</x:WindowHeight>
+     <x:WindowWidth>20400</x:WindowWidth>
+    </x:ExcelWorkbook>
+   </xml>
+  <![endif]-->
+ </head>
+ <body link="blue" vlink="purple">
+  <table width="0" border="0" cellpadding="0" cellspacing="0" style='width:1131.00pt;border-collapse:collapse;table-layout:fixed;'>
+   <col width="0" style='mso-width-source:userset;mso-width-alt:1216;'/>
+   <col width="0" style='mso-width-source:userset;mso-width-alt:1632;'/>
+   <col width="0" style='mso-width-source:userset;mso-width-alt:6688;'/>
+   <col width="0" style='mso-width-source:userset;mso-width-alt:3104;'/>
+   <col width="0" style='mso-width-source:userset;mso-width-alt:4416;'/>
+   <col width="0" style='mso-width-source:userset;mso-width-alt:3232;'/>
+   <col width="0" span="2" style='mso-width-source:userset;mso-width-alt:2144;'/>
+   <col width="0" style='mso-width-source:userset;mso-width-alt:4832;'/>
+   <col width="0" style='mso-width-source:userset;mso-width-alt:2592;'/>
+   <col width="0" span="2" style='mso-width-source:userset;mso-width-alt:2144;'/>
+   <col width="0" style='mso-width-source:userset;mso-width-alt:5760;'/>
+   <col width="0" span="2" style='mso-width-source:userset;mso-width-alt:3104;'/>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl54" height="0" width="0" style='height:12.75pt;width:28.50pt;' x:str>省</td>
+    <td class="xl54" width="0" style='width:38.25pt;' x:str>城市</td>
+    <td class="xl54" width="0" style='width:156.75pt;' x:str>机构</td>
+    <td class="xl54" width="0" style='width:72.75pt;' x:str>入场结束时间</td>
+    <td class="xl54" width="0" style='width:103.50pt;' x:str>邮路名称</td>
+    <td class="xl54" width="0" style='width:75.75pt;' x:str>邮路编号</td>
+    <td class="xl54" width="0" style='width:50.25pt;' x:str>出发时间</td>
+    <td class="xl54" width="0" style='width:50.25pt;' x:str>到达时间</td>
+    <td class="xl54" width="0" style='width:113.25pt;' x:str>下游机构</td>
+    <td class="xl54" width="0" style='width:60.75pt;' x:str>适用工作日</td>
+    <td class="xl54" width="0" style='width:50.25pt;' x:str>邮件类型</td>
+    <td class="xl54" width="0" style='width:50.25pt;' x:str>发运范围</td>
+    <td class="xl54" width="0" style='width:135.00pt;' x:str>发运机构</td>
+    <td class="xl54" width="0" style='width:72.75pt;' x:str>开始生效日期</td>
+    <td class="xl54" width="0" style='width:72.75pt;' x:str>结束生效日期</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌客户服务中心[32200021]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:str="'2332101904">2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl56" x:str>金义中心<font class="font4">[32104300]</font></td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金华速递站点[32100022]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌客户服务中心[32200021]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金华速递站点[32100022]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌客户服务中心[32200021]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金华速递站点[32100022]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌客户服务中心[32200021]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金华速递站点[32100022]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌秦塘揽投站[32200026]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌秦塘揽投站[32200026]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌秦塘揽投站[32200026]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌秦塘揽投站[32200026]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌秦塘揽投站[32200026]</td>
+    <td class="xl55" x:num>1110</td>
+    <td class="xl55" x:str>义乌揽投邮路</td>
+    <td class="xl55" x:num>3732200600</td>
+    <td class="xl55" x:num>1112</td>
+    <td class="xl55" x:num>1123</td>
+    <td class="xl55" x:str>义乌站点[32200000]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省内</td>
+    <td class="xl55" x:str>义乌站点[32200000]</td>
+    <td class="xl57" align="right" x:num="40459">2010/10/8</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌秦塘揽投站[32200026]</td>
+    <td class="xl55" x:num>1110</td>
+    <td class="xl55" x:str>义乌揽投邮路</td>
+    <td class="xl55" x:num>3732200600</td>
+    <td class="xl55" x:num>1112</td>
+    <td class="xl55" x:num>1123</td>
+    <td class="xl55" x:str>义乌站点[32200000]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>义乌站点[32200000]</td>
+    <td class="xl57" align="right" x:num="40459">2010/10/8</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌秦塘揽投站[32200026]</td>
+    <td class="xl55" x:num>1110</td>
+    <td class="xl55" x:str>义乌揽投邮路</td>
+    <td class="xl55" x:num>3732200600</td>
+    <td class="xl55" x:num>1112</td>
+    <td class="xl55" x:num>1123</td>
+    <td class="xl55" x:str>义乌站点[32200000]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省内</td>
+    <td class="xl55" x:str>义乌站点[32200000]</td>
+    <td class="xl57" align="right" x:num="40459">2010/10/8</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌秦塘揽投站[32200026]</td>
+    <td class="xl55" x:num>1110</td>
+    <td class="xl55" x:str>义乌揽投邮路</td>
+    <td class="xl55" x:num>3732200600</td>
+    <td class="xl55" x:num>1112</td>
+    <td class="xl55" x:num>1123</td>
+    <td class="xl55" x:str>义乌站点[32200000]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>义乌站点[32200000]</td>
+    <td class="xl57" align="right" x:num="40459">2010/10/8</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌秦塘揽投站[32200026]</td>
+    <td class="xl55" x:num>1110</td>
+    <td class="xl55" x:str>义乌揽投邮路</td>
+    <td class="xl55" x:num>3732200600</td>
+    <td class="xl55" x:num>1112</td>
+    <td class="xl55" x:num>1123</td>
+    <td class="xl55" x:str>义乌站点[32200000]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>同城</td>
+    <td class="xl55" x:str>义乌站点[32200000]</td>
+    <td class="xl57" align="right" x:num="40459">2010/10/8</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌秦塘揽投站[32200026]</td>
+    <td class="xl55" x:num>1110</td>
+    <td class="xl55" x:str>义乌揽投邮路</td>
+    <td class="xl55" x:num>3732200600</td>
+    <td class="xl55" x:num>1112</td>
+    <td class="xl55" x:num>1123</td>
+    <td class="xl55" x:str>义乌站点[32200000]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>同城</td>
+    <td class="xl55" x:str>义乌站点[32200000]</td>
+    <td class="xl57" align="right" x:num="40459">2010/10/8</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌速递旗舰店[32200027]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌速递旗舰店[32200027]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌速递旗舰店[32200027]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌速递旗舰店[32200027]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌财富B揽投站[32200028]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌财富B揽投站[32200028]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌财富B揽投站[32200028]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌财富B揽投站[32200028]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌赵宅揽投站[32200029]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌赵宅揽投站[32200029]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌赵宅揽投站[32200029]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌赵宅揽投站[32200029]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌童店揽投站[32200101]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌童店揽投站[32200101]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌童店揽投站[32200101]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌童店揽投站[32200101]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌佛堂揽投[32200204]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌佛堂揽投[32200204]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌佛堂揽投[32200204]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌佛堂揽投[32200204]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌东河揽投[32200603]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌东河揽投[32200603]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌东河揽投[32200603]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌东河揽投[32200603]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌上溪揽投[32200604]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌上溪揽投[32200604]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌上溪揽投[32200604]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌上溪揽投[32200604]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌北苑揽投[32200702]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌北苑揽投[32200702]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌北苑揽投[32200702]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌北苑揽投[32200702]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌苏溪揽投站[32200902]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌苏溪揽投站[32200902]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌苏溪揽投站[32200902]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌苏溪揽投站[32200902]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌廿三里揽投[32201202]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌廿三里揽投[32201202]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌廿三里揽投[32201202]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌廿三里揽投[32201202]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌青口揽投站[32201304]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌青口揽投站[32201304]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌青口揽投站[32201304]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌青口揽投站[32201304]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌黄杨梅揽投站[32201803]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌黄杨梅揽投站[32201803]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌黄杨梅揽投站[32201803]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌黄杨梅揽投站[32201803]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌下仓揽投[32201805]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌下仓揽投[32201805]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌下仓揽投[32201805]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌下仓揽投[32201805]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌嘉禾揽投[32201806]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌嘉禾揽投[32201806]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌嘉禾揽投[32201806]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌嘉禾揽投[32201806]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌南门揽投站[32202201]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌南门揽投站[32202201]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌南门揽投站[32202201]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌南门揽投站[32202201]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌工商学院揽投[32202202]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌工商学院揽投[32202202]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌工商学院揽投[32202202]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌工商学院揽投[32202202]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌宗塘揽投站[32202203]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌宗塘揽投站[32202203]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌宗塘揽投站[32202203]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌宗塘揽投站[32202203]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌青岩刘揽投站[32202204]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌青岩刘揽投站[32202204]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌青岩刘揽投站[32202204]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌青岩刘揽投站[32202204]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌财富A揽投站[32209901]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌财富A揽投站[32209901]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌财富A揽投站[32209901]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌财富A揽投站[32209901]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌诚信揽投站[32209902]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌诚信揽投站[32209902]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌诚信揽投站[32209902]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌诚信揽投站[32209902]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌荷叶塘揽投站[32209903]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌荷叶塘揽投站[32209903]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌荷叶塘揽投站[32209903]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌荷叶塘揽投站[32209903]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌宾王揽投[32209904]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌宾王揽投[32209904]</td>
+    <td class="xl55" x:num>1100</td>
+    <td class="xl55" x:str>义乌-金华（金速1）</td>
+    <td class="xl55" x:num>2332101904</td>
+    <td class="xl55" x:num>1200</td>
+    <td class="xl55" x:num>1255</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40655">2011/4/22</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌宾王揽投[32209904]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>经济件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+   <tr height="0" style='height:12.75pt;'>
+    <td class="xl55" height="0" style='height:12.75pt;' x:str>浙江</td>
+    <td class="xl55" x:str>义乌市</td>
+    <td class="xl55" x:str>义乌宾王揽投[32209904]</td>
+    <td class="xl55" x:num>1820</td>
+    <td class="xl55" x:str>义乌-金华（金速2）</td>
+    <td class="xl55" x:num>2332101906</td>
+    <td class="xl55" x:num>2000</td>
+    <td class="xl55" x:num>2010</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl55" x:num>1111111</td>
+    <td class="xl55" x:str>标准件</td>
+    <td class="xl55" x:str>省际</td>
+    <td class="xl55" x:str>金义中心[32104300]</td>
+    <td class="xl57" align="right" x:num="40745">2011/7/21</td>
+    <td class="xl57" align="right" x:num="73050">2099/12/31</td>
+   </tr>
+  </table>
+ </body>
+</html>

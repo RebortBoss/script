@@ -10,7 +10,7 @@ fi;
 
 sdtmi=`date +'%s'`
 for (( i = 0; i < 8; i++)); do
-     $BP/nextDate_exec_980.sh >>/opt/exportData/export_All.log 2>&1
+     $BP/nextDate_exec_980.sh >>$BP/export_All.log 2>&1
      edtmi=`date +'%s'`
      cost=`expr $edtmi - $sdtmi`
      echo "$i finish cost ${cost}(s)"
