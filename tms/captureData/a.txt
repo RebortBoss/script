@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=Content-Type content="text/html;charset=gb2312">
+<title>鍛煎拰娴╃壒到寤婂潑距离查询_鍛煎拰娴╃壒到寤婂潑多少公里_鍛煎拰娴╃壒到寤婂潑有多远_鍛煎拰娴╃壒到寤婂潑里程查询</title>
+<META content="鍛煎拰娴╃壒到寤婂潑距离查询_鍛煎拰娴╃壒到寤婂潑多少公里_鍛煎拰娴╃壒到寤婂潑有多远_鍛煎拰娴╃壒到寤婂潑里程查询" name=description>
+<META content="鍛煎拰娴╃壒到寤婂潑距离查询_鍛煎拰娴╃壒到寤婂潑多少公里_鍛煎拰娴╃壒到寤婂潑有多远_鍛煎拰娴╃壒到寤婂潑里程查询" name=keywords>
+<link href="/css/juli.css" rel=stylesheet>
+</head>
+<body>
+<div class="c" id="s">
+<a id="logo" href="/"><img src="/Images/Member/logo_1.gif" alt="火车票网" /></a><br />
+<h2>鍛煎拰娴╃壒到寤婂潑距离查询</h2>
+<br />
+<b><a href="/hot/cold.htm">航空、水路、公路、铁路数据综合判断</a></b></div>
+<div class="c">
+<div id="menu"><div>
+<a class="on" href="/"><span>网站首页</span></a>
+<a  href="http://news.huochepiao.com"><span>铁路资讯</span></a>
+<a  href="http://search.huochepiao.com"><span>火车时刻</span></a>
+<a  href="http://book.huochepiao.com"><span>火车票预定</span></a>
+<a  href="http://yupiao.huochepiao.com"><span>火车票余票查询</span></a>
+<a  href="http://travel.huochepiao.com"><span>旅游度假</span></a>
+<a  href="http://hotel.huochepiao.com"><span>酒店预订</span></a>
+<a  href="http://jipiao.huochepiao.com"><span>机票搜索</span></a>
+<a  href="http://travel.huochepiao.com/menpiao/"><span>景点门票</span></a>
+<a  href="http://bbs.huochepiao.com/"><span>论坛</span></a>
+</div>
+</div>
+</div>
+<div id="m" class="c">
+<div id="ml">
+<div id="hot">
+<div id="hot_tabs">
+<div id="hot_c">
+<div class="hot1" id="_hot1">
+<TABLE cellSpacing=0 cellPadding=0 width="98%" border=0>
+<TR>
+<FORM name=julichaxun action=/juli/ method=get>
+<TD height="55" align=middle> <IMG src="/Images/d_search.gif" alt="里程距离查询" width=13 height=13 border="0">
+出发城市：
+  <INPUT name=chufa type=text value="鍛煎拰娴╃壒" size=10>
+目的城市：
+<INPUT name=daoda type=text value="寤婂潑" size=10>
+<label>
+<input type="submit" name="Submit" value="里程查询" />
+</label></TD>
+</FORM>
+</TR>
+</TABLE>
+</div>
+</div>
+</div>
+</div>
+<div class="nocom">
+<div class="tabs"><b>鍛煎拰娴╃壒到寤婂潑距离大约：</b></div>
+<div class="tabs_c">
+<div align="center"><h1>0公里</h1><a href=http://www.changtu8.com/zj-%E9%8D%9B%E7%85%8E%E6%8B%B0%E5%A8%B4%E2%95%83%E5%A3%92-%E5%AF%A4%E5%A9%82%E6%BD%91.html target="_blank">查看行驶线路</a></div>
+</div>
+</div>
+            
+<div class="nocom">
+<div class="tabs"><b>更多鍛煎拰娴╃壒周边城市距离：</b></div>
+<div class="tabs_c">				
+<h1>实在抱歉，系统计算不出鍛煎拰娴╃壒周边城市里程距离...</h1>
+</div>
+</div>
+</div>
+<div id="mr">
+<div class="com">
+<div class="tabs_c">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-1203620678305247";
+/* 336x280, 创建于 10-8-9 */
+google_ad_slot = "1050776164";
+google_ad_width = 336;
+google_ad_height = 280;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<table border="0">
+<tr>
+<td rowspan="2"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-1203620678305247";
+/* 728x90, 创建于 08-11-5 */
+google_ad_slot = "8510107903";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></td>
+<td><a href="http://www.huochepiao.com/life/">实用工具</a>:</td>
+</tr>
+<tr>
+<td><a href="http://travel.huochepiao.com/tuan/">旅游团购</a> <a href="http://travel.huochepiao.com/tuan/jipiao/">机票团购</a> <a href="http://travel.huochepiao.com/tuan/hotel/">酒店团购</a><br />
+<a href="http://gaotie.huochepiao.com">高铁时刻</a> <a href="http://search.huochepiao.com">火车时刻</a> <a href="http://yupiao.huochepiao.com">余票查询</a><br />
+<a href="http://travel.huochepiao.com/jingdian/">景点大全</a> <a href="http://travel.huochepiao.com/mianfei/">免费景点</a> <a href="http://travel.huochepiao.com/menpiao/">景点门票</a><br />
+<a href="http://travel.huochepiao.com">旅游报价</a> <a href="http://hotel.huochepiao.com">酒店预订</a> <a href="http://jipiao.huochepiao.com">机票比价</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="c" id="footer">&copy;2013 huochepiao.com <a href="/">火车票网</a> <a href="http://bbs.huochepiao.com/ask/">有问必答</a></div>
+</body>
+</html>
