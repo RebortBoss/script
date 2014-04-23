@@ -11,8 +11,8 @@ import sys;
 ########################################################################
 class  Capture:
     """"""
-    __login_url="http://10.3.50.152:7011/tms/login.do?method=login";
-    __data_url="http://10.3.50.152:7011/tms/mini/operationplan.OperationPlan/getMonitorTop";    
+    __login_url="http://xx.xx.xx.xx:7011/$path/login.do?method=login";
+    __data_url="http://xx.xx.xx.xx:7011/$path/mini/operationplan.OperationPlan/getMonitorTop";    
     
     #----------------------------------------------------------------------
     def __init__(self):
@@ -22,7 +22,7 @@ class  Capture:
     def __logIn(self):
         cookie = cookielib.CookieJar();
         opener=urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie));
-        postdata=urllib.urlencode({"name":"sys","password":"hollycrm"});
+        postdata=urllib.urlencode({"name":"xxxxx","password":"xxxxx"});
         user_agent="Mozilla/5.0 (X11; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0";
         headers = {'User-Agent':user_agent};
         urllib2.install_opener(opener);
